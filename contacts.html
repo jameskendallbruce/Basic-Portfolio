@@ -10,47 +10,64 @@
 </head>
 <body>
     
-    <header class="bigHead" id="MyName">James Kendall Bruce</header>
+    <div id="bar">
+            
+        <header class="bigHead" id="MyName">James Kendall Bruce</header>
 
-    <nav>
+        <nav>
+        
+            <ul>
+            
+                <li class="tabs"><a href="index.html">About</a></li>
 
-        <div><a href="index.html">About</a></div>
+                <li class="tabs buffer">_</li>
 
-        <div><a href="contacts.html">Contact</a></div>
+                <li class="tabs"><a href="portfolio.html">Portfolio</a></li>
 
-        <div><a href="portfolio.html">Portfolio</a></div>
+                <li class="tabs buffer">_</li>
+        
+                <li class="tabs"><a href="contacts.html">Contact</a></li>
+                
+            </ul>
+            
+        </nav>
 
-    </nav>
+
+    </div>
+
+    <header id="backbar"></header>
+    
 
     <Section>
 
-        <header class="bigHead Title">Contact</header>
+        <header class="bigHead Title">About Me</header>
 
-        <div></div>
+        <div class="line"></div>
 
-            <form>
+        <form>
 
-                    Name:<br>
-
-                        <input type="text" name="name" value="John Smith">
+                <h1 class="mini">Name:</h1><br>
+        
+                    <input type="text" name="name" value="John Smith" class="inputs">
+                
+                    <br>
+                
+                <h1 class="mini">Email:</h1><br>
                     
-                        <br>
+                    <input type="text" name="email" value="email@email.com" class="inputs">
+                
+                    <br>
+                
+                <h1 class="mini">Message:</h1><br>
+        
+                    <textarea type="text" name="message" class="inputs" id="message">Shoot me an inquiry or comment or whathaveyou</textarea>
                     
-                    Email:<br>
-                        
-                        <input type="text" name="email" value="email@email.com">
-                    
-                        <br>
-                    
-                    Message:<br>
-
-                        <input type="text" name="message" value="shoot me an inquiry or comment or whathaveyou">
-                        
-                        <br><br>
-                    
-                        <input type="submit" value="Submit">
-
-            </form>
+                    <br><br>
+                
+                    <input type="submit" value="Submit">
+        
+        </form>
+        
 
     </Section>
 
