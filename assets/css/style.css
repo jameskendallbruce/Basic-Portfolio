@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    color:  #777777;
+    width: 960px;
+    font-size: 18px;
+    /* background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/regal.png') */
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png');
+}
+
+.bigHead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#MyName {
+    background-color: #4aaaa5;
+    padding: 20px;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    Width: 242px;
+}
+.Title {
+    color: #4aaaa5;
+}
+
+nav {
+    float: right;
+    display: inline;
+}
+
+/* .tabs {
+    display: inline;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+footer {
+    background-color: #666666;
+    width: 960px;
+    height: 5px;
+}
+
+#profile {
+    float: left;
+}
+
+article {
+    display: inline;
+}
